@@ -5,7 +5,7 @@
 		"type": "@type",
 		"schema": "https://schema.org/",
 		"ReniecCredential": {
-			"@id": "https://Chithara27.github.io/myfiles/reniec-context.json#ReniecCredential"
+			"@id": "https://peru-id.github.io/Reniec-Peru/reniec-context.json#ReniecCredential"
 		},
 		"firstName": "schema:name",
 		"firstLastName": "schema:name",
