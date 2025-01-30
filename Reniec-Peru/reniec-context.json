@@ -8,12 +8,11 @@
 			"@id": "https://peru-id.github.io/Reniec-Peru/reniec-context.json#ReniecCredential"
 		},
 		"firstName": "schema:name",
-		"firstLastName": "schema:name",
-		"secondLastName": "schema:name",
+		"firstSurName": "schema:name",
+		"secondSurName": "schema:name",
 		"dateOfBirth": "schema:birthDate",
 		"gender": "schema:gender",
 		"maritalStatus": "schema:Text",
-		"face": "schema:Text",
-		"id": "schema:Text"
+		"face": "schema:Text"
 	}
 }
