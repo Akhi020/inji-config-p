@@ -173,7 +173,7 @@
         {
           "name": "Mock Identity",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://peru-id.github.io/inji-config/Logo/Reniec.JPG",
             "alt_text": "mosip-logo"
           },
           "title": "Mock Identity",
