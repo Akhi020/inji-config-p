@@ -6,7 +6,7 @@
   "id": "did:web:peru-id.github.io:inji-config:Reniec-Peru",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "z6MkvBrtacsABTSdKcKKuLWy789jDGZwS8b39WxJqFjYHwyh",
+      "publicKeyMultibase": "z6MkgFStHEeYDNRD3EJQQn23DfnkFj1zNkK59PaCwhaqr71z",
       "controller": "did:web:peru-id.github.io:inji-config:Reniec-Peru",
       "id": "did:web:peru-id.github.io:inji-config:Reniec-Peru#key-0",
       "type": "Ed25519VerificationKey2020",
