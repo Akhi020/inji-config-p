@@ -1,12 +1,12 @@
 {
   "verifiers": [
     {
-      "client_id": "https://${mosip.injiverify.host}",
+      "client_id": "https://injiverify.dst-dev.mosip.net",
       "redirect_uris": [
-        "https://${mosip.injiverify.host}/redirect"
+        "https://injiverify.dst-dev.mosip.net/redirect"
       ],
       "response_uris": [
-        "https://${mosip.injiverify.host}/v1/verify/vp-submission/direct-post"
+        "https://injiverify.dst-dev.mosip.net/v1/verify/vp-submission/direct-post"
       ]
     }
   ]
