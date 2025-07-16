@@ -6,12 +6,12 @@
       "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance",
       "display": [
         {
-          "name": "National Identity Department",
+          "name": "MosiLand National Identity Department",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "National Identity Department",
+          "title": "MosiLand National Identity Department",
           "description": "Download MOSIP National / Foundational Identity Credential",
           "language": "en"
         },
@@ -56,12 +56,12 @@
           "language": "ta"
         },
         {
-          "name": "National Identity Department",
+          "name": "MosiLand National Identity Department",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "logo ng mosip"
           },
-          "title": "National Identity Department",
+          "title": "MosiLand National Identity Department",
           "description": "I-download ang MOSIP National / Foundational Identity Credential",
           "language": "fil"
         }
@@ -76,6 +76,33 @@
       "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
-    }
+    },
+    {
+      "issuer_id": "MosipTax",
+      "credential_issuer": "MosipTax",
+      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance",
+      "display": [
+        {
+          "name": "MosiLand Tax Department",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "MosiLand Tax Department",
+          "description": "Download MosiLand Tax Credential",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
+      "client_alias": "mpartner-default-test-mosipid",
+      "wellknown_endpoint": "https://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MosipTax",
+      "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "EmbeddedVC",
+      "enabled": "true"
+    }	
   ]
 }
