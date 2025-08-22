@@ -80,7 +80,7 @@
      {
       "issuer_id": "MosipTax",
       "credential_issuer": "MosipTax",
-      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance",
+      "credential_issuer_host": "https://${mosip.injicertify.tax.host}/v1/certify/issuance",
       "display": [
         {
           "name": "MosiLand Tax Department",
