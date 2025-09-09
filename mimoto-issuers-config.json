@@ -80,7 +80,7 @@
     {
       "issuer_id": "Farmer",
       "credential_issuer": "Farmer",
-      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
+      "credential_issuer_host": "https://injicertify-farmer.dst-dev.mosip.net/v1/certify/issuance",
       "display": [
         {
           "name": "MosiLand Agriculture Department",
@@ -146,7 +146,7 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
       "client_alias": "mpartner-default-test-mosipid",
-      "wellknown_endpoint": "https://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "wellknown_endpoint": "https://injicertify-farmer.dst-dev.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Farmer",
       "authorization_audience": "https://esignet-mosipid.dst-dev.mosip.net/v1/esignet/oauth/v2/token",
