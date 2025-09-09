@@ -77,6 +77,83 @@
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
+    {
+      "issuer_id": "Farmer",
+      "credential_issuer": "Farmer",
+      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
+      "display": [
+        {
+          "name": "MosiLand Agriculture Department",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "MosiLand Agriculture Department",
+          "description": "Download Farmer VC",
+          "language": "en"
+        },
+        {
+         "name": "قسم الزراعة في موسيلاند",
+      "logo": {
+        "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+        "alt_text": "mosip-logo"
+      },
+      "title": "قسم الزراعة في موسيلاند",
+      "description": "تحميل شهادة المزارع",
+      "language": "ar"
+        },
+        {
+          "name": "मोसिलैंड कृषि विभाग",
+      "logo": {
+        "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+        "alt_text": "mosip-logo"
+      },
+      "title": "मोसिलैंड कृषि विभाग",
+      "description": "किसान वीसी डाउनलोड करें",
+      "language": "hi"
+        },
+        {
+          "name": "ಮೋಷಿಲ್ಯಾಂಡ್ ಕೃಷಿ ಇಲಾಖೆ",
+      "logo": {
+        "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+        "alt_text": "mosip-logo"
+      },
+      "title": "ಮೋಷಿಲ್ಯಾಂಡ್ ಕೃಷಿ ಇಲಾಖೆ",
+      "description": "ರೈತ VC ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+      "language": "kn"
+        },
+        {
+         "name": "மோசிலாண்ட் வேளாண்மை துறை",
+      "logo": {
+        "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+        "alt_text": "mosip-logo"
+      },
+      "title": "மோசிலாண்ட் வேளாண்மை துறை",
+      "description": "விவசாயி VC ஐ பதிவிறக்கவும்",
+      "language": "ta"
+        },
+        {
+         "name": "Kagawaran ng Agrikultura ng MosiLand",
+      "logo": {
+        "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+        "alt_text": "mosip-logo"
+      },
+      "title": "Kagawaran ng Agrikultura ng MosiLand",
+      "description": "I-download ang Farmer VC",
+      "language": "fil"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
+      "client_alias": "mpartner-default-test-mosipid",
+      "wellknown_endpoint": "https://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Farmer",
+      "authorization_audience": "https://esignet-mosipid.dst-dev.mosip.net/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://esignet-mosipid.dst-dev.mosip.net/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
+    },
      {
       "issuer_id": "MosipTax",
       "credential_issuer": "MosipTax",
