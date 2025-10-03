@@ -72,15 +72,15 @@
       "wellknown_endpoint": "https://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
-      "authorization_audience": "https://esignet-mosipid.dst-dev.mosip.net/v1/esignet/oauth/v2/token",
-      "proxy_token_endpoint": "https://esignet-mosipid.dst-dev.mosip.net/v1/esignet/oauth/v2/token",
+      "authorization_audience": "https://esignet.mec.mosip.net/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://esignet.mec.mosip.net/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
       "issuer_id": "Farmer",
       "credential_issuer": "Farmer",
-      "credential_issuer_host": "https://injicertify-farmer.dst-dev.mosip.net/v1/certify/issuance",
+      "credential_issuer_host": "https://injicertify-farmer.mec.mosip.net/v1/certify/issuance",
       "display": [
         {
           "name": "MosiLand Agriculture Department",
@@ -146,11 +146,11 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
       "client_alias": "mpartner-default-test-mosipid",
-      "wellknown_endpoint": "https://injicertify-farmer.dst-dev.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "wellknown_endpoint": "https://injicertify-farmer.mec.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Farmer",
-      "authorization_audience": "https://esignet-mosipid.dst-dev.mosip.net/v1/esignet/oauth/v2/token",
-      "proxy_token_endpoint": "https://esignet-mosipid.dst-dev.mosip.net/v1/esignet/oauth/v2/token",
+      "authorization_audience": "https://esignet.mec.mosip.net/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://esignet.mec.mosip.net/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
@@ -233,11 +233,11 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
       "client_alias": "mpartner-default-test-mosipid",
-      "wellknown_endpoint": "https://injicertify-tax.dst-dev.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "wellknown_endpoint": "https://injicertify-tax.mec.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MosipTax",
-      "authorization_audience": "https://esignet-mosipid.dst-dev.mosip.net/v1/esignet/oauth/v2/token",
-      "proxy_token_endpoint": "https://esignet-mosipid.dst-dev.mosip.net/v1/esignet/oauth/v2/token",
+      "authorization_audience": "https://esignet.mec.mosip.net/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://esignet.mec.mosip.net/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     }	
